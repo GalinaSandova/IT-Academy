@@ -25,5 +25,10 @@ class ViewController: UIViewController {
         label.layer.cornerRadius = 20
         label.clipsToBounds = true
     }
+    @IBAction func tapCounterReset(_ sender: Any) {
+        caunter -= 1
+        label.text = "Нажали кнопку " + String(caunter) + " раз"
+        
+    }
 }
 

@@ -33,13 +33,26 @@
                                     <action selector="buttontapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="79Y-3m-aDb"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yV0-hf-wtg">
+                                <rect key="frame" x="133" y="488" width="148" height="44"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="counter reset">
+                                    <color key="titleColor" red="1" green="0.10566476330000001" blue="0.10736459969999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapCounterReset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jau-qh-XNy"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="MF9-A8-b8q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8BR-b6-fKc"/>
                             <constraint firstItem="kp8-im-jy7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Lxq-sI-R84"/>
+                            <constraint firstItem="yV0-hf-wtg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VlR-Gb-l1l"/>
                             <constraint firstItem="kp8-im-jy7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eeb-It-djI"/>
+                            <constraint firstItem="yV0-hf-wtg" firstAttribute="top" secondItem="MF9-A8-b8q" secondAttribute="bottom" constant="25" id="h1V-fC-bo7"/>
                             <constraint firstItem="MF9-A8-b8q" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mLh-cO-1ew"/>
                         </constraints>
                     </view>
